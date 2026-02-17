@@ -18,6 +18,7 @@ public:
             lmax = max(lmax,height[l]);
             rmax = max(rmax,height[r]); 
 
+            
             if(lmax < rmax) {
                 ans += lmax-height[l];
                 l++;
