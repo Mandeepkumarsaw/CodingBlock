@@ -14,7 +14,7 @@ public:
        while(st <= end) {
         long mid = st + (end-st)/2;
 
-        if(mid*mid <= x){   //done to avoid overflow
+        if(mid*mid <= x){    //done to avoid overflow
             ans = mid;
              st = mid+1;       //right
         }else {
