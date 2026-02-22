@@ -4,7 +4,7 @@
 using namespace std;
 
 
-class Solution {    //Boyer–Moore Voting Algorithm (Majority Element)
+class Solution {     //Boyer–Moore Voting Algorithm (Majority Element)
 public:
     int majorityElement(vector<int>& nums) {
         int n = nums.size();
