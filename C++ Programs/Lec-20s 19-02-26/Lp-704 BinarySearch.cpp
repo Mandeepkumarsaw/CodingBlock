@@ -3,7 +3,7 @@
 #include<set>
 using namespace std;
 
-class Solution {          //recursive approach
+class Solution {           //recursive approach
     int binaryS(vector<int>& nums, int st, int end, int target) {
         if (st > end) return -1;
 
