@@ -12,7 +12,7 @@ public:
         int i=0;
         for(int j=1;j<n;j++){
             if(nums[i] != nums[j]){     //unique
-             i++;             //i = unique pos(i) + 1
+             i++;              //i = unique pos(i) + 1
              nums[i]=nums[j];   //i ele =replaced by= curr ele tracked by j
             }
         }
