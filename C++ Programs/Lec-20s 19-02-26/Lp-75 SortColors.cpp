@@ -3,7 +3,7 @@
 #include<set>
 using namespace std;
 
-class Solution {   //Dutch National Flag Algo
+class Solution {    //Dutch National Flag Algo
 public:
     void sortColors(vector<int>& nums) {
         int n= nums.size();
