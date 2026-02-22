@@ -3,7 +3,7 @@
 #include<set>
 using namespace std;
 
-class Solution {   //Booyer Moore Voting algo
+class Solution {   //Kadane's algo
 public:
     int maxSubArray(vector<int>& nums) {
         int numsSum = nums[0];
